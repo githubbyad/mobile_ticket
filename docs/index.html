@@ -21,11 +21,11 @@
         
         #ticketcell {
             height: 12vh;
-            transform: translateY(-50px);
+            /* transform: translateY(-50px); */
         }
         
         #tickets {
-            height: 50vh;
+            height: 78vh;
             position: relative;
             z-index: 5;
             background: white;
@@ -43,20 +43,20 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <iframe id="tickets" src="https://bulletlink.one/bulletlink_tickets.asp?" class="border-0 w-100 px-0"></iframe>
             </div>
-            <div class="col-6">
+            <div class="col-4">
                 <iframe id="buzzer" src="https://bulletlink.one/ticket_status.asp" scrolling="no" class="border-0 w-100"></iframe>
             </div>
-            <div class="col-6">
+            <div class="col-8">
                 <iframe id="ticketcell" src="https://bulletlink.one/bulletlink_tickets.asp?cell=0" scrolling="no" class="border-0 w-100"></iframe>
             </div>
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <iframe id="responses" src="https://githubbyad.github.io/responses/" class="border-0 w-100 px-0"></iframe>
-            </div>
+            </div> -->
             <video class="d-none" width="400" controls autoplay muted loop>
                 <source src="https://raw.githubusercontent.com/githubbyad/tickets/main/docs/mov_bbb.mp4" type="video/mp4">
                 <source src="https://raw.githubusercontent.com/githubbyad/tickets/main/docs/mov_bbb.ogg" type="video/ogg">
